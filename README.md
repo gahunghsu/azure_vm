@@ -15,6 +15,12 @@ Create an Azure VM, install node.js and git on it, and use SSH to clone the proj
 12. 於github中新增ssh key
 13. ssh -T git@github.com
 14. git clone git@gitlab.com:username/project.git
+15. curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+16. source ~/.bashrc
+17. nvm install 18.12.1
+18. nvm alias default 18.12.1
+19. npm install
+20. npm install cors
 
 
 
