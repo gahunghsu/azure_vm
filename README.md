@@ -21,6 +21,7 @@ Create an Azure VM, install node.js and git on it, and use SSH to clone the proj
 18. nvm alias default 18.12.1
 19. npm install
 20. npm install cors
+21. scp -i inxSignage_key_0215.pem -r ./public/Media/video.mpd ./publia/video.mpd ./public/Media/video-242_dashinit.mp4 ./public/Media/video-360_dashinit.mp4 ./public/Media/video-audio_dashinit.mp4 azureuser@20.2.71.217:/home/azureuser/InxSignageService/public/Media
 
 
 
